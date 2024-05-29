@@ -29,7 +29,6 @@ fn main() {
     let (mut rl, thread) = raylib::init()
         .size(SCREEN_WIDTH as i32, SCREEN_HEIGHT as i32)
         .title("Project Particles").vsync().build();
-
     
     //Particles
     let mut particle1 = Particle {
